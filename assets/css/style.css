@@ -1,0 +1,103 @@
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+  }
+  
+
+header {
+  color:azure;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  padding: 1%;
+  background-image: url("https://43a7183y5zx2q5qg935lc2o59l-wpengine.netdna-ssl.com/wp-content/uploads/2019/05/kitchen-lauren-li-27-2200x1235.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: relative; 
+}
+
+header h1 {
+  font-size: 200%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+base {
+  background-color:gray;
+}
+
+footer {
+  background-color: dimgrey;
+  text-align: center;
+}
+
+#aboutme {
+  float:left;  
+  background: lightslategray; 
+  width: 20%; 
+  height: 150px;
+  text-align: right;
+  padding-top: 40px;
+  padding-right: 20px;
+  border-right: 5px solid whitesmoke;
+}
+
+#content {
+  float:right; 
+  background: lightslategray; 
+  width: 80%; 
+  height: 150px;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 20px;
+  word-break:break-all;
+}
+
+.navbar {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.quote {
+  position: absolute;
+  bottom: 250px;
+  left: 16px;
+  font-size: 18px;
+};
+
+.work {
+  background-color: grey;
+}
+
+.card {
+  padding:10px;
+  width:250px;
+  border-radius:5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.contact {
+  font-size: large;
+  text-align: center;
+  color: white;
+  background-color: #606060;
+}
